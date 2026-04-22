@@ -1,3 +1,3 @@
-﻿#define DEFAUL_SIZE 100
+﻿#define DEFAULT_SIZE 100
 
-int sum_elements_of_columns_with_extreme_value(int matrix[DEFAUL_SIZE][DEFAUL_SIZE], int n, int m);
+int sum_elements_of_columns_with_extreme_value(int matrix[DEFAULT_SIZE][DEFAULT_SIZE], int n, int m);
