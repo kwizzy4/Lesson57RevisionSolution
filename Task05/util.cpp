@@ -1,6 +1,6 @@
 ﻿#include "util.h"
 
-string convert(int matrix[DEFAUL_SIZE][DEFAUL_SIZE], int n, int m) {
+string convert(int matrix[DEFAULT_SIZE][DEFAULT_SIZE], int n, int m) {
 	string s = "";
 	for (int i = 0; i < n; i++)
 	{
@@ -14,7 +14,7 @@ string convert(int matrix[DEFAUL_SIZE][DEFAUL_SIZE], int n, int m) {
 	return s;
 }
 
-void print_test(int matrix[DEFAUL_SIZE][DEFAUL_SIZE], int n, int m, string expected, string test_name) {
+void print_test(int matrix[DEFAULT_SIZE][DEFAULT_SIZE], int n, int m, string expected, string test_name) {
 	HANDLE h;
 	h = GetStdHandle(STD_OUTPUT_HANDLE);
 
